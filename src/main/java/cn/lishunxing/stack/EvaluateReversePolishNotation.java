@@ -26,9 +26,6 @@ public class EvaluateReversePolishNotation {
         if (tokens.length == 0) {
             return 0;
         }
-        if (tokens.length == 1) {
-            return Integer.parseInt(tokens[0]);
-        }
         // 声明一个栈来存放操作数, 数字是从最后两个开始运算的
         Stack<Integer> stack = new Stack<>();
         for (String x : tokens) {
