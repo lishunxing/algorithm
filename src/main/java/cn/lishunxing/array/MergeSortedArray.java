@@ -36,7 +36,7 @@ public class MergeSortedArray {
 
     /**
      * 这里我们把nums2的数据也合并到nums1中间, 因为nums1的后面n位都为0, 所以从最后一位开始存放
-     * 定义变量j,k来表示nums1,nums2 的初始合并下标. 分别从两个数组的最后一位数字开始比大小, 大的就往nums1最后存放
+     * 分别从两个数组的最后一位数字开始比大小, 大的就往nums1最后存放
      */
     public void merge2(int[] nums1, int m, int[] nums2, int n) {
         if (n == 0) {
